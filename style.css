@@ -1,5 +1,6 @@
 body {
-    background-color: antiquewhite;
+    background-color: lightblue;
+    line-height: 1.2;
 }
 
 
@@ -16,7 +17,7 @@ header {
   text-align: center;
 }
 
-#section-1 {
+.section {
     background-color: aquamarine;
     border: 7px solid black;
     border-radius: 12px;
@@ -24,15 +25,49 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
+    width: 90%;
 }
 
-#section-1 p{
+.section p{
     background-color: antiquewhite;
     border: 3px solid black;
     border-radius: 12px;
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+    width: 70%; 
     text-align: center;
-    width: 80%;
+    
+}
+
+.section ul{
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    box-align: center;
+}
+
+.section ol {
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-align: center;
+}
+
+.footer {
+    background-color: whitesmoke;
+    border: 7px solid black;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+
 }
