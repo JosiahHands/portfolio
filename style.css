@@ -71,3 +71,12 @@ header {
     width: 70%;
 
 }
+
+@media screen and (max-width: 600px) {
+    .section p, .section ul, .section ol {
+        width: 80%;
+    }
+    .section ol {
+        font-size: 0.9em;
+    }
+}
