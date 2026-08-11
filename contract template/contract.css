@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     background-color: antiquewhite;
     text-align: center;
+    margin: 10px 5%;
 }
 
 header { 
@@ -18,10 +19,49 @@ header {
 .section {
     border: 3px solid black;
     border-radius: 3px;
+    padding: 5%;
 }
 
 footer {
     background-color: whitesmoke;
     border: 3px solid black;
     border-radius: 3px;
+}
+
+
+
+.sign h3 {
+  display: inline-block;
+}
+
+.sign p {
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 1.5em;
+    }
+    body {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        font-size: 1.5em;
+    }
+    body {
+        font-size: 0.65em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        font-size: 1.5em;
+    }
+    body {
+        font-size: 0.45em;
+    }
 }
