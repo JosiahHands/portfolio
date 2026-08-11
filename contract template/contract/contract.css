@@ -40,14 +40,6 @@ footer {
   display: inline-block;
 }
 
-#clear {
-    text-align: right;
-}
-
-#clear a {
-    color: antiquewhite;
-}
-
 
 @media screen and (max-width: 600px) {
     header {
