@@ -4,9 +4,11 @@ body {
     text-align: center;
 }
 
-header {
+header { 
     background-color: gray;
     font-size: 1.5em;
+    border: 3px solid black;
+    border-radius: 3px;
 }
 
 .main1 {
@@ -21,4 +23,5 @@ header {
 footer {
     background-color: whitesmoke;
     border: 3px solid black;
+    border-radius: 3px;
 }
