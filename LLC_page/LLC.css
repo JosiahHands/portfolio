@@ -17,6 +17,25 @@ header {
     font-size: 1.5em;
 }
 
+
+.p-button {
+    margin: 20px auto 0px;
+    background-color: brown;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 3px 3px;
+    width: auto;
+    font-size: 1.5em;
+}
+
+.p-button:hover {
+    background-color: pink;
+}
+
+
 @media screen and (max-width: 400px) {
     header {
         font-size: 0.9em;
