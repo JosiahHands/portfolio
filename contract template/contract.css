@@ -28,7 +28,9 @@ footer {
     border-radius: 3px;
 }
 
-
+.sign {
+    border: 1px solid black;
+}
 
 .sign h3 {
   display: inline-block;
