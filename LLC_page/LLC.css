@@ -29,6 +29,8 @@ header {
     padding: 0px 3px 3px;
     width: auto;
     font-size: 1.5em;
+    transition-property: background-color;
+    transition-duration: 0.25s;
 }
 
 .p-button:hover {
