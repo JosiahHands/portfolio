@@ -1,6 +1,6 @@
 body {
     background-color: gray;
-    line-height: 1.2em;
+    line-height: 1.4em;
     box-sizing: border-box;
     font-family: sans-serif;
     color: rgb(212, 212, 212);
@@ -8,8 +8,9 @@ body {
     margin: auto;
 }
 
-body a {
-    color: rgb(45, 45, 138);
+a {
+    color: rgb(129, 157, 250);
+    display: inline-block;
 }
 
 header {
@@ -43,44 +44,57 @@ header {
     text-align: center;
     
 }
+.section a {
+    display: inline-block;
+}
 
 .section ul{
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: fit-content;
     box-align: center;
     line-height: 1.8em;
+    text-align: left;
+    position: relative;
+    right: 15px
 }
 
-.section ol {
-    margin: auto;
-    width: 50%;
+.section ol{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
     box-align: center;
-    line-height: 2.5em;
+    line-height: 1.8em;
+    text-align: left;
 }
 
 
 .footer {
     margin: 0px auto;
     text-align: center;
-    width: 100%;
+    width: 80%;
     background-color: rgb(44, 44, 44);
     padding: 5px auto;
 }
 
-a {
+.footer ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    box-align: center;
+    line-height: 1.8em;
+    text-align: left;
+    position: relative;
+    right: 15px
+}
+
+.footer a {
     display: inline-block;
 }
 
 @media screen and (max-width: 600px) {
-    .section p {
-        width: 85%;
-    }
-    .section ul, .section ol {
-        width: 80%;
-    }
     body {
-        font-size: 0.8em
+        font-size: 0.68em
     }
 }
 
